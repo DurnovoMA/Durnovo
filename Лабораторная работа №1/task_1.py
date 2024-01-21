@@ -29,28 +29,25 @@ class Car:
 
         self.People = People
 
-    # метод увеличения мощности двигателя на значение PowerUP
     def Chip(self, PowerUP: int)-> int:
         """
-
+        Функция которая увеличивает мощность двигателя на значение PowerUP
         :param PowerUP: значение увеличения мощности
         :return: новое значение мощности (Power+PowerUP)
         """
         ...
 
-    # метод изменения радиуса колеса на значение Wheel
     def Koleso(self, Wheel: Union[int, float]) ->  Union[int, float]:
         """
-
+        Функция которая изменяет радиуса колеса на значение Wheel
         :param Wheel: значение на которое меняется радиус колеса
         :return: новый радиус колеса
         """
         ...
 
-    # метод изменения человек в машине
     def ludi(self, person: int) -> int:
         """
-
+        Функция которая изменяет количество человек в машине
         :param person: изменяемое количество человек в машине
         :return: новое количество человек в машине
         """
@@ -137,7 +134,7 @@ class BankAccount:
 
     def deposit(self, amount: float) -> float:
         """
-
+        Внесение средств на счет
         :param amount: Сумма для внесения на счет
         :return: Новая сумма на счету
         """
